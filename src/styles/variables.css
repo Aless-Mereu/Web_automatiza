@@ -1,0 +1,59 @@
+/* =========================================================
+   VARIABLES DE DISEÑO
+   Cambia aquí colores, tipografía, espaciados y radios.
+   Todo el sitio se actualiza a partir de estos valores.
+   ========================================================= */
+:root {
+  /* Marca */
+  --color-primary: #5b5bf6;        /* botones, acentos */
+  --color-primary-hover: #4a4ae0;
+  --color-accent: #22d3ee;         /* segundo color del degradado */
+  --gradient-brand: linear-gradient(120deg, var(--color-primary) 0%, var(--color-accent) 100%);
+
+  /* Fondos */
+  --color-bg: #ffffff;
+  --color-bg-soft: #f6f7fb;        /* secciones alternas */
+  --color-bg-dark: #0b1020;        /* hero, CTA final, footer */
+  --color-bg-dark-2: #121a33;
+  --color-surface: #ffffff;        /* tarjetas */
+
+  /* Texto */
+  --color-text: #0f172a;
+  --color-text-muted: #55607a;
+  --color-text-inverse: #f1f4ff;
+  --color-text-inverse-muted: #a3acc7;
+
+  /* Bordes y estados */
+  --color-border: #e5e8f0;
+  --color-border-dark: rgba(255, 255, 255, 0.1);
+  --color-success: #22c55e;
+
+  /* Tipografía */
+  --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --fs-hero: clamp(2.3rem, 4.4vw, 3.6rem);
+  --fs-h2: clamp(1.9rem, 3.4vw, 2.75rem);
+  --fs-h3: 1.2rem;
+  --fs-lead: clamp(1.05rem, 1.4vw, 1.2rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+  /* Espaciado */
+  --container: 1180px;
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --section-y: clamp(4.5rem, 9vw, 7.5rem);   /* padding vertical de cada sección */
+  --gap: 1.5rem;
+
+  /* Formas y sombras */
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow: 0 10px 30px -12px rgba(15, 23, 42, 0.18);
+  --shadow-lg: 0 30px 60px -20px rgba(11, 16, 32, 0.45);
+
+  /* Movimiento */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 180ms;
+  --t: 320ms;
+}

@@ -1,0 +1,17 @@
+.testimonial { margin: 0; display: flex; flex-direction: column; }
+.testimonial__stars { color: #f59e0b; letter-spacing: 0.15em; font-size: 0.95rem; }
+.testimonial blockquote { margin: 1rem 0 1.75rem; font-size: 1.02rem; line-height: 1.65; flex: 1; }
+.testimonial figcaption { display: flex; align-items: center; gap: 0.8rem; }
+.testimonial__avatar {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--gradient-brand);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.testimonial strong { display: block; font-size: 0.95rem; }
+.testimonial small { color: var(--color-text-muted); }
